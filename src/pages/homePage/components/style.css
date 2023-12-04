@@ -6,7 +6,8 @@
   --font-color:#121212;
   --black-color: #000;
   --primary-brand-color: rgb(241,169,28);
-  --secondary-brand-color: green
+  --secondary-brand-color: green;
+  --tertiary-brand-color: red;
 }
 
 /*---------*/
@@ -62,19 +63,53 @@ h2 h3 {
   .two-image-section p{
     color: #000;
   }
-
-  /* APPROACH SECTION */
+/* OBJECTIVES SECTION */
   .our-objectives-section {
     margin-bottom: 20px;
   }
+  /* APPROACH SECTION */
  .our-approach-section .card{
     padding-bottom: 65px;
     text-align: center;
   }
+
+  .our-approach-section .card:hover{
+    padding-bottom: 65px;
+    text-align: center;
+    z-index: 5;
+    border: none;
+    box-shadow: 10px 10px 5px #000;
+  }
+
+  .our-approach-section .card h5{
+    color: var(--purple-color);
+  }
+  .our-approach-section .card2 h5{
+    color: red;
+  }
+  .our-approach-section .card:hover h5{
+    color: #000;
+  }
+
+
+  .our-approach-section .card:hover p{
+    color: red;
+  }
+
+  .our-approach-section .card1:hover p, .our-approach-section .card3:hover p{
+    color: var(--purple-color);
+  }
+
   .our-approach-section .card .btn{
     position:absolute;
     bottom: 10px;
     left: 30%;
+  }
+  .our-approach-section .card{
+    background-color: rgb(255, 0, 0, 0);
+  }
+  .our-approach-section .card1, .our-approach-section .card3{
+    background-color: var(--primary-brand-color);
   }
   .our-approach-section .col {
     padding: 0px;
@@ -98,13 +133,20 @@ h2 h3 {
   .programs-section .card {
     padding-bottom: 55px;
   }
+  .programs-section .card:hover h5 {
+    font-weight: 900;
+  }
 
+  .programs-section h5 {
+    color: red
+  }
   .programs-section p {
     display: -webkit-box;
     max-width: 200px;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    color: var(--purple-color)
   }
 
   /* SUPPORT SERVICES SECTION */

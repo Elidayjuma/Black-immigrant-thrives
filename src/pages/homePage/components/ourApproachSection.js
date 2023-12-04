@@ -8,7 +8,7 @@ export default function OurApproachSection() {
             <section className="cards-section">
                     <h2 className='section-title'>OUR APPROACH</h2>
                     <div className='row'>
-                        <div className='col col-12 col-md-6 col-lg-4 mb-3'>
+                        <div className='col col-12 col-md-6 col-lg-4 mb-3 card1'>
                             <Card
                                 link="./about-us"
                                 linkText="Learn more"
@@ -17,7 +17,7 @@ export default function OurApproachSection() {
                             />
 
                         </div>
-                        <div className='col col-12 col-md-6 col-lg-4 mb-3'>
+                        <div className='col col-12 col-md-6 col-lg-4 mb-3 card2'>
                             <Card
                                 link="./about-us"
                                 linkText="Learn more"
@@ -25,7 +25,7 @@ export default function OurApproachSection() {
                                 body="We host community gatherings and forums that provide a space for individuals to connect, find inspiration, and access valuable resources. These events foster collaboration, enhancing the overall well-being of our members."
                             />
                         </div>
-                        <div className='col col-12 col-md-6 col-lg-4 mb-3'>
+                        <div className='col col-12 col-md-6 col-lg-4 mb-3 card3'>
                             <Card
                                 link="./about-us"
                                 linkText="Learn more"

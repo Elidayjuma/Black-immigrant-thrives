@@ -1,0 +1,30 @@
+
+/*---------*/
+
+/* BANNER STYLING */
+.banner-action-forum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500 px;
+    position:relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-action-forum img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner-content-action-forum {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+    
+  .home-banner-action-forum img{
+    filter: brightness(50%)
+  }
+

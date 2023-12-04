@@ -8,7 +8,8 @@
   --font-color:#121212;
   --black-color: #000;
   --primary-brand-color: rgb(241,169,28);
-  --secondary-brand-color: green
+  --secondary-brand-color: green;
+  --tertiary-brand-color: red;
 }
 
 /*---------*/
@@ -121,7 +122,7 @@ select{
 }
 
 .footer {
-    color: #fff;
+    color: var(--purple-color);
     font-size: 20px;
     margin-bottom: 0px;
     margin-top: 20px;
@@ -130,10 +131,11 @@ select{
     width: 100%;
     /* Height of the footer*/
     padding-bottom: 20px;
+    background-color: var(--primary-brand-color);
 }
 
 .footer .nav-link {
-  color: var(--primary-brand-color)
+  color: var(--purple-color)
 }
 
 .copy-right-footer {
@@ -224,12 +226,28 @@ h2.section-title {
   border-radius: 15px;
   margin: 10px 0px;
 }
+ .about-us-section .title {
+  font-size: 35px;
+  font-family: var(--primary-font);
+  letter-spacing: 0.88px;
+  line-height: 71px;
+  color: #000000;
+  opacity: 1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-us-section p {
+  font-family: var(--primary-font);
+  font-style: italic;
+  color: var(--tertiary-brand-color)
+  
+}
 
 .common-section .title {
   text-align: center;
 }
 
-.about-us-section:hover, .common-section:hover{
+.common-section:hover{
   border: var(--secondary-brand-color);
   border-style: solid;
   border-width: 1px;
@@ -296,8 +314,8 @@ h2.section-title {
   height: 100%;
   padding:60px 10px;
   margin:30px 0px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-margin-bottom: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
 }
 
 .box-part:hover{
@@ -305,6 +323,9 @@ margin-bottom: 25px;
 }
 
 .box-part a{
+  color: var(--tertiary-brand-color);
+}
+.box-part:hover a{
   color: var(--primary-brand-color);
 }
 
@@ -319,7 +340,7 @@ margin-bottom: 25px;
 }
 
 .fa{
-  color: var(--primary-brand-color);
+  color: var(--tertiary-brand-color);
 }
 
 /* CONTACT FORM */

@@ -5,7 +5,7 @@ import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 function Footer() {
   return (
     <div>
-    <div className="footer bg-dark">
+    <div className="footer">
       <div className="container justify-content-center">
         <div className="row">
           <div className="col col-sm-12 col-md-12 col-lg-4">
