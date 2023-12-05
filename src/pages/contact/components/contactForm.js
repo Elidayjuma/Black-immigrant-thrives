@@ -5,7 +5,7 @@ export default function ContactForm(props) {
       <div className="contact-form container">
             <form method="post">
                <div className="row">
-                    <div className="col">
+                    <div className="col-sm-12 col-md-6" style={{borderRight:'solid 1px rgb(241,169,28)'}}>
                         <div className="form-group">
                             <input type="text" name="txtName" className="form-control" placeholder="Your Name *" value="" />
                         </div>
@@ -21,6 +21,11 @@ export default function ContactForm(props) {
                         <div className="form-group">
                             <input type="submit" name="btnSubmit" className="btn btn-primary" value="Send Message" />
                         </div>
+                    </div>
+                    <div className='col-sm-12 col-md-6'>
+                        <p>Email: <strong>blackimmigrantthrives@gmail.com</strong></p>
+                        <p>Location: <strong>Ottawa, Ontario CA</strong></p>
+                        
                     </div>
                 </div>
             </form>

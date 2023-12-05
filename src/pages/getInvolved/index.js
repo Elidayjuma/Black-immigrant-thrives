@@ -4,6 +4,7 @@ import Footer from '../../components/footer';
 import Section from '../../components/common/section';
 import PageTitle from '../../components/pageTitle';
 import IconSection from '../../components/common/iconSection';
+import ImageURLs from '../../assets/images';
 
 function GetInvolvedPage() {
     return (
@@ -11,7 +12,7 @@ function GetInvolvedPage() {
         <Header/>
         <PageTitle
         title="Get Involved"
-        backgroundImage="https://demo.themeignite.com/prime-charity-trust/wp-content/themes/prime-charity-trust-pro/assets/images/TittleBanner.png"
+        backgroundImage={ImageURLs.trainningBannerImageURL}
       />
       
       <a href='/contact-us' >

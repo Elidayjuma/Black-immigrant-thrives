@@ -14,7 +14,7 @@ function BlackImmigrantVoicesPage() {
       <Header />
       <PageTitleWithColor
         title="Black Immigrant Voices - Echo of arrival"
-        backgroundColor="black"
+        backgroundColor="#023020"
       />
       {/* TODO : Add a section with image and  */}
     

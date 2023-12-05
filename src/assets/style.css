@@ -10,6 +10,7 @@
   --primary-brand-color: rgb(241,169,28);
   --primary-dark: rgb(220, 168, 25);
   --secondary-brand-color: green;
+  --dark-green: #023020;
   --tertiary-brand-color: red;
 }
 
@@ -85,6 +86,10 @@ ul,ol{
   width: -webkit-fill-available;
   max-width: 510px;
   min-width: 300px;
+}
+.training-list li:hover {
+  border: var(--secondary-brand-color);
+  border-width: 3px;
 }
 small{
   font-size:14px !important;
@@ -172,7 +177,6 @@ select{
   color: #fff;
 }
 .row.title-banner-wrapper {
-  margin: 50px 0 0;
   min-height: 300px;
   justify-content: center;
   align-items: center;
@@ -205,9 +209,7 @@ section.cards-section{
   background: hsl(40deg 88% 53% / 10%);
   padding-bottom: 50px;
 }
-.community-activity-page .cards-section {
-  margin-top: 50px;
-}
+
 .cards-section .col {
   margin-bottom: 20px;
 }
@@ -311,6 +313,25 @@ h2.section-title {
   border-radius: 15px;
   opacity: 1;
   border: none;
+}
+
+/* COMMUNITY ACTIVITY PAGE */
+.community-activity-page .cards-section {
+  margin-top: 50px;
+}
+.community-activity-page .card-title {
+  color: var(--secondary-brand-color);
+}
+.community-activity-page .card:hover {
+  background-color: var(--primary-brand-color);
+}
+.community-activity-page .card:hover .card-title, .community-activity-page .card:hover .card-text {
+  color: #fff;
+}
+
+/* AWARDS PAGE */
+.award-categories {
+  margin-bottom: 50px;
 }
 
 /* icon section component */

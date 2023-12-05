@@ -12,6 +12,7 @@ export default function AboutUs() {
             <Header />
             <PageTitle
                 title="About Us"
+                displayHome='false'
                 backgroundImage={ImageURLs.forumBannerImageURL}
             />
             <div className="container">
@@ -23,7 +24,7 @@ export default function AboutUs() {
             </div>
             <section className="cards-section">
                 <div className='container'>
-                    <h2 className='section-title'>Our approach</h2>
+                    <h2 className='section-title'>OUR APPROACH</h2>
                     <div className='row'>
                         <div className='col col-12 col-md-6 col-lg-4 mb-3'>
                             <Card

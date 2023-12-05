@@ -12,7 +12,7 @@ function ContactPage() {
         <Header/>
         <PageTitleWithColor
           title="Contact Us"
-          backgroundColor='black'
+          backgroundColor="#023020"
         />
         <div className="container">
         <ContactForm />

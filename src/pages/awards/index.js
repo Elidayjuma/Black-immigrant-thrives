@@ -18,7 +18,7 @@ function AwardsPage() {
         body="We shine a spotlight on the outstanding contributions of Black immigrants who have significantly impacted the community and enriched Canada as a whole. The awards are a testament to the dedication, resilience, and positive influence that Black immigrants bring to our diverse and thriving nation."
       />
 
-      <div className="container">
+      <div className="container award-categories">
         <h3>Award Categories</h3>
         <div className="row">
           <div className='col col-12 col-md-6 col-lg-4 mb-3'>

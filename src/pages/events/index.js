@@ -11,7 +11,7 @@ function EventsPage() {
       <Header />
       <PageTitle
         title="Events"
-        backgroundImage={ImageURLs.commonBannerURL}
+        backgroundImage={ImageURLs.trainningBannerImageURL}
       />
       <div className="container">
         <h3>Our Events</h3>

@@ -15,6 +15,8 @@ import bitExcellenceImageBox from './bitexcellencebox.jpg';
 import eventImageBox from './eventbox.jpg';
 import bitVoices500ImageBox from './bitvoices500.jpg';
 import event500ImageBox from './event500.jpg';
+import trainningBannerImage from './trainingbanner.jpg';
+import networking500ImageBox from './network500.jpg';
 
 const ImageURLs = {
     bannerImageURL: "https://thumbs.dreamstime.com/b/blur-abstract-background-blurred-grey-gradient-bright-light-copy-space-backdrop-banner-blank-mordern-business-office-modern-146255325.jpg",
@@ -36,6 +38,8 @@ const ImageURLs = {
     eventImageBoxURL: eventImageBox,
     bitVoices500ImageURL: bitVoices500ImageBox,
     event500ImageBoxURL: event500ImageBox,
+    trainningBannerImageURL: trainningBannerImage,
+    networking500ImageBoxURL: networking500ImageBox, 
 }
   
   export default ImageURLs;
