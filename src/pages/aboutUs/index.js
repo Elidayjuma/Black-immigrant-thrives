@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import PageTitle from '../../components/pageTitle';
-import Section from '../../components/common/section';
 import Card from '../../components/common/card';
 import MissionSection from '../homePage/components/missionSection';
 import ImageURLs from '../../assets/images';
@@ -36,7 +35,7 @@ export default function AboutUs() {
                         </div>
                         <div className='col col-12 col-md-6 col-lg-4 mb-3'>
                             <Card
-                                img={ImageURLs.forumImageURL}
+                                img={ImageURLs.event500ImageBoxURL}
                                 title="Community Gatherings and Forums"
                                 body="We host community gatherings and forums that provide a space for individuals to connect, find inspiration, and access valuable resources. These events foster collaboration, enhancing the overall well-being of our members."
                             />

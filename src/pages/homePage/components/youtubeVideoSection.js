@@ -6,10 +6,10 @@ const YoutubeSection = (props) => {
         <div className="youtube-section">
             <div className='container'>
                 <div className='row text-center'>
-                    <div className='col'>
+                    <div className='col-md-6' >
                         <iframe
-                            width="560"
-                            height="315"
+                            width= '100%'
+                            height= "300px"
                             src="https://www.youtube.com/embed/OiAmRmqUbmU?si=KACM0N3n16-aKe70"
                             title="YouTube video player"
                             frameborder="0"
@@ -17,10 +17,10 @@ const YoutubeSection = (props) => {
                             allowfullscreen>
                         </iframe>
                     </div>
-                    <div className='col'>
+                    <div className='col-md-6'>
                         <iframe
-                            width="560"
-                            height="315"
+                            width="100%"
+                            height="300px"
                             src="https://www.youtube.com/embed/OiAmRmqUbmU?si=KACM0N3n16-aKe70"
                             title="YouTube video player"
                             frameborder="0"
