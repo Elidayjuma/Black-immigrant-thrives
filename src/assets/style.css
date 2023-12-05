@@ -122,7 +122,7 @@ select{
 }
 
 .footer {
-    color: var(--purple-color);
+    color: #fff;
     font-size: 20px;
     margin-bottom: 0px;
     margin-top: 20px;
@@ -135,7 +135,7 @@ select{
 }
 
 .footer .nav-link {
-  color: var(--purple-color)
+  color: #fff;
 }
 
 .copy-right-footer {
@@ -239,7 +239,8 @@ h2.section-title {
 .about-us-section p {
   font-family: var(--primary-font);
   font-style: italic;
-  color: var(--tertiary-brand-color)
+  font-weight: 400;
+  /* color: var(--tertiary-brand-color) */
   
 }
 

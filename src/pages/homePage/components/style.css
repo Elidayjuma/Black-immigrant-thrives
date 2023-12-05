@@ -81,11 +81,15 @@ h2 h3 {
     box-shadow: 10px 10px 5px #000;
   }
 
+  .our-approach-section .card .btn{
+    background-color: var(--secondary-brand-color);
+  }
+
   .our-approach-section .card h5{
-    color: var(--purple-color);
+    color: #000;
   }
   .our-approach-section .card2 h5{
-    color: red;
+    color: #000;
   }
   .our-approach-section .card:hover h5{
     color: #000;
@@ -97,7 +101,7 @@ h2 h3 {
   }
 
   .our-approach-section .card1:hover p, .our-approach-section .card3:hover p{
-    color: var(--purple-color);
+    color: white;
   }
 
   .our-approach-section .card .btn{
