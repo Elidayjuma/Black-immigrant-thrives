@@ -8,7 +8,7 @@ function Header() {
             <nav className="navbar navbar-expand-lg  navbar-light bg-light">
                 <div className="container">
                 <a className="navbar-brand" href="/">
-                    <img src={ImageURLs.logoUrl} width="80" height="80" alt="logo"/>
+                    <img src={ImageURLs.logoUrl} width="100" height="100" alt="logo"/>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

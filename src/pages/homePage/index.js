@@ -9,9 +9,10 @@ import AboutUsSection from './components/aboutUsSection';
 import MissionSection from './components/missionSection';
 import OurApproachSection from './components/ourApproachSection';
 import OurObjectivesSection from './components/ourObjectivesSection';
-// import EventsSection from './components/eventsSection';
 import OuProgramsSection from './components/ourProgramsSection';
 import MiscSection from './components/SupportServicesSection';
+import ImageSlider from './components/imageSliderSection';
+import YoutubeSection from './components/youtubeVideoSection';
 
 function HomePage() {
     return (
@@ -21,13 +22,14 @@ function HomePage() {
         <AboutUsSection />
         <MissionSection />
         <OurApproachSection /><br/>
-        <Banner 
+        {/* <Banner 
           bannerImageUrl={ImageURLs.missionImageURL}
-        /><br/>
+        /><br/> */}
+        <ImageSlider />
         <OurObjectivesSection />
         <OuProgramsSection/>
-        {/* <EventsSection /> */}
         <MiscSection />
+        <YoutubeSection />
         <Footer/>
       </div>
     );

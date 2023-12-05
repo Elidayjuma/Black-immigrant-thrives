@@ -14,23 +14,29 @@ function Footer() {
           <div className="col col-sm-12 col-md-12 col-lg-4">
             <div className='row'>
               <div className="col">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://www.youtube.com/channel/UCP3EAc3hssmCJNOuWNWR4Fw">
                   <FontAwesomeIcon
                     size="2x"
                     icon={icon({ name: 'youtube', style: 'brands' })} /></a>
               </div>
               <div className="col">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://instagram.com/blackimmigrant_thrives?utm_source=qr&igshid=YzU1NGVlODEzOA==">
                   <FontAwesomeIcon
                     size="2x"
                     icon={icon({ name: 'instagram', style: 'brands' })} />
                 </a>
               </div>
               <div className="col">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://www.facebook.com/profile.php?id=100093668154818&mibextid=ZbWKwL">
                   <FontAwesomeIcon
                     size="2x"
                     icon={icon({ name: 'facebook', style: 'brands' })} /></a>
+              </div>
+              <div className="col">
+                <a className="nav-link" href="https://anchor.fm/blackimmigrant-thrives">
+                  <FontAwesomeIcon
+                    size="2x"
+                    icon={icon({ name: 'spotify', style: 'brands' })} /></a>
               </div>
             </div>
           </div>

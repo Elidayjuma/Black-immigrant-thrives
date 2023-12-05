@@ -8,6 +8,7 @@
   --font-color:#121212;
   --black-color: #000;
   --primary-brand-color: rgb(241,169,28);
+  --primary-dark: rgb(220, 168, 25);
   --secondary-brand-color: green;
   --tertiary-brand-color: red;
 }
@@ -125,16 +126,19 @@ select{
     color: #fff;
     font-size: 20px;
     margin-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
     /* Height of the footer*/
     padding-bottom: 20px;
-    background-color: var(--primary-brand-color);
+    background-color: var(--primary-dark);
 }
 
 .footer .nav-link {
+  color: var(--secondary-brand-color);
+}
+.footer .nav-link:hover {
   color: #fff;
 }
 
@@ -631,3 +635,104 @@ border-radius: 15px;
     left: 100px;
   }
 }
+
+/* IMAGE SLIDER COMPONENT */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.image-slider-component {
+  /* background-color: var(--secondary-brand-color); */
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  overflow:hidden;
+  position: relative;
+  height: 300px;
+  border-top: solid 3px red;
+
+  --animationspeed: 45s;
+  --animationdelay: calc(var(--animationspeed) / 2);
+}
+
+.image-slider-component::before{
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  width: 5%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.image-slider-component::after{
+  position: absolute;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  width: 5%;
+  z-index: 2;
+  pointer-events: none;
+  right: 0;
+}
+
+.image-slider-row {
+  flex-shrink: 0;
+  position: absolute;
+  animation-name: slidelogo;
+  animation-duration: var(--animationspeed);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* min-width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  width: max-content;
+}
+
+.image-slider-row.delay {
+  transform: translateX(100%);
+  animation-name: slidelogo2;
+}
+
+.image-slider-component:hover .image-slider-row {
+  animation-play-state: paused;
+}
+
+.image-slider-col {
+  display: inline-flex;
+  align-self: center;
+  animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  /* padding: 0 20px 0 20px; */
+  height:300px;
+}
+@keyframes slidelogo {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes slidelogo2 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+

@@ -6,6 +6,7 @@ import PageTitle from '../../components/pageTitle';
 import Card from '../../components/common/card';
 import ImageURLs from '../../assets/images';
 import BIVBanner from './components/bannerSection';
+import YoutubeSection from '../homePage/components/youtubeVideoSection';
 
 function BlackImmigrantVoicesPage() {
   return (
@@ -24,7 +25,7 @@ function BlackImmigrantVoicesPage() {
        Join us on this transformative journey, where every episode becomes a stepping stone towards a more connected and informed Black immigrant community.`}
         />
         </div>
-        <div className="home-banner-biv">
+        <div className="home-banner-biv mb-2">
         <BIVBanner 
           heading="Black Immigrant Voices"
           body={`Do you have a story to tell, an experience to share, or insights to impart, we invite you to be part of "Black Immigrant Voices." Simply complete the form by clicking the button below, and our dedicated team will reach out to you promptly.`}
@@ -32,6 +33,7 @@ function BlackImmigrantVoicesPage() {
           actionLink="#"
         />
         </div>
+        <YoutubeSection />
 
       <Footer />
     </div>

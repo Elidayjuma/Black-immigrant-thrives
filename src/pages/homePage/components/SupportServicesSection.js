@@ -7,7 +7,7 @@ export default function SupportServicesSection() {
     return (
         <div className="support-services-section">
                 <hr/>
-<section className="cards-section">
+<section className="cards-section mb-0">
             <div className="container">
             <h2 className='section-title'>ONGOING CAMPAIGNS</h2>
                 <div className="row">

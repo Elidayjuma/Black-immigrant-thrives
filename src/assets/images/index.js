@@ -9,6 +9,10 @@ import forumBannerImage from './forumbanner.jpg';
 import eventImage from './event.jpg';
 import storyTellingImageBox from './storytellingbox.jpg';
 import mentorshipImageBox from './mentorshipbox.jpg';
+import peerSupportImageBox from './peersupportbox.jpg';
+import bitvoicesImageBox from './bitvoicesbox.jpg';
+import bitExcellenceImageBox from './bitexcellencebox.jpg';
+import eventImageBox from './eventbox.jpg';
 
 const ImageURLs = {
     bannerImageURL: "https://thumbs.dreamstime.com/b/blur-abstract-background-blurred-grey-gradient-bright-light-copy-space-backdrop-banner-blank-mordern-business-office-modern-146255325.jpg",
@@ -24,6 +28,10 @@ const ImageURLs = {
     eventImageURL: eventImage,
     storyTellingImageBoxURL: storyTellingImageBox,
     mentorshipImageBoxURL: mentorshipImageBox,
+    peerSupportImageBoxURL: peerSupportImageBox,
+    bitvoicesImageBoxURL: bitvoicesImageBox,
+    bitExcellenceImageBoxURL: bitExcellenceImageBox,
+    eventImageBoxURL: eventImageBox,
 }
   
   export default ImageURLs;
