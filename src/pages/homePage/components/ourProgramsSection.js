@@ -7,7 +7,7 @@ export default function OurProgramsSection() {
         <div className="programs-section">
             <div className="container">
                 <h2 className='section-title'>DISCOVER OUR PROGRAMS</h2>
-                <div className="row">
+                <div className="row text-center">
                     <div className='col col-12 col-md-6 col-lg-3 mb-3'>
                         <Card
                             link="/contact-us"
@@ -23,7 +23,7 @@ export default function OurProgramsSection() {
                             link="/awards"
                             linkText="Learn more"
                             img={ImageURLs.bitExcellenceImageBoxURL}
-                            title="Celebrating Excellence Black Immigrant excellence. "
+                            title="Celebrating Black Immigrant excellence. "
                             body="We shine a spotlight on the outstanding contributions of Black immigrants who have significantly impacted the community and enriched Canada as a whole. Do you know someone deserving of recognition? Click here to Nominate Someone"
                         />
                     </div>
@@ -33,7 +33,7 @@ export default function OurProgramsSection() {
                             link="/events"
                             linkText="Learn more"
                             img={ImageURLs.eventImageBoxURL}
-                            title="Events"
+                            title="Black Immigrants Community Events"
                             body="We organise community events where we bring together experts, professionals, and community members to share valuable information. Whether in person or virtually, these events serve as a hub for exchanging resources, insights, and opportunities that empower the Black immigrant community."
                         />
                     </div>
@@ -42,7 +42,7 @@ export default function OurProgramsSection() {
                             link="/support-services"
                             linkText="Learn more"
                             img={ImageURLs.peerSupportImageBoxURL}
-                            title="Peer Mentorship"
+                            title="Black Immigrant Peer Mentorship"
                             body="Guidance from someone who understands your journey can make a significant difference. Our peer mentorship program connects individuals with experienced mentors who share similar backgrounds and experiences. "
                         />
                     </div>

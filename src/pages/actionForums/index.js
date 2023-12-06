@@ -1,8 +1,6 @@
 import React from 'react';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
-import PageTitle from '../../components/pageTitle';
-import TwoImageSection from '../../components/common/twoImageSection';
 import BannerSection from './components/bannerSection';
 
 function ActionForumsPage() {

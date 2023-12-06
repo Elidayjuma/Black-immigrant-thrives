@@ -1,0 +1,35 @@
+
+/*---------*/
+
+/* BANNER STYLING */
+.banner-get-involved {
+    /* display: flex; */
+    height: 500 px;
+    position:relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-get-involved img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner-content-get-involved {
+    position: absolute;
+    top: 20px;
+    /* left: 20px; */
+    /* transform: translate(-30%, -80%); */
+  }
+
+  .banner-content-get-involved h3, .banner-content-get-involved p{
+    color: #fff;
+  }
+  .banner-content-get-involved .box-part span, .banner-content-get-involved .box-part h3{
+    color: black;
+  }
+    
+  .banner-get-involved img{
+    filter: brightness(30%)
+  }
+

@@ -143,15 +143,20 @@ h2 h3 {
   }
 
   .programs-section h5 {
-    color: red
+    color: red;
+    text-align: center;
   }
   .programs-section p {
     display: -webkit-box;
     text-align: center;
-    max-width: 200px;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+  .programs-section .card .btn{
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
   }
 
   /* SUPPORT SERVICES SECTION */

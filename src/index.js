@@ -22,6 +22,10 @@ import GetInvolvedPage from './pages/getInvolved';
 import HireUsPage from './pages/hireUs';
 import ContactUsPage from './pages/contact';
 import EventsPage from './pages/events';
+import CareersPage from './pages/careers';
+import VolunteerPage from './pages/volunteer';
+import MembershipPage from './pages/membership';
+import PartnershipPage from './pages/partnership';
 
 const router = createBrowserRouter([
   {
@@ -76,6 +80,22 @@ const router = createBrowserRouter([
   {
     path: "/events",
     element: <EventsPage/>
+  },
+  {
+    path: "/careers",
+    element: <CareersPage/>
+  },
+  {
+    path: "/volunteer",
+    element: <VolunteerPage/>
+  },
+  {
+    path: "/membership",
+    element: <MembershipPage/>
+  },
+  {
+    path: "/partnership",
+    element: <PartnershipPage/>
   }
 ]);
 
