@@ -46,6 +46,7 @@ function Header() {
                                     Get involved
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="getInvlvedDropdownMenuLink">
+                                    <a className="dropdown-item" href="/get-involved">Get involved</a>
                                     <a className="dropdown-item" href="/volunteer">Volunteer</a>
                                     <a className="dropdown-item" href="/membership">Become a member</a>
                                     <a className="dropdown-item" href="/partnership">Become a partner</a>

@@ -33,3 +33,29 @@
     filter: brightness(30%)
   }
 
+  .get-involved-page .col{
+    padding: 0px;
+  }
+  .get-involved-page .card{
+    background-color: var(--primary-brand-color);
+    border: none;
+  }
+  .get-involved-page .btn{
+    background-color: var(--secondary-brand-color);
+  }
+  .get-involved-page p,.get-involved-page h5{
+    color: #000;
+  }
+  .get-involved-page .card:hover{
+    background-color: var(--secondary-brand-color);
+    border: none;
+  }
+  .get-involved-page .card:hover .btn{
+    background-color: var(--primary-brand-color);
+  }
+  .get-involved-page .card:hover p,.get-involved-page .card:hover h5{
+    color: #fff;
+  }
+
+
+

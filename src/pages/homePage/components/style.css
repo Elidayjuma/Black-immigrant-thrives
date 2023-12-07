@@ -15,10 +15,6 @@
 h2 h3 {
   font-family: var(--primary-font);
 }
-.card .btn{
-  position:absolute;
-  bottom: 10px;
-}
 
 /* BANNER STYLING */
 .banner {
@@ -136,7 +132,7 @@ h2 h3 {
 
   /* PROGRAMS SECTION */
   .programs-section .card {
-    padding-bottom: 55px;
+    padding-bottom: 20px;
   }
   .programs-section .card:hover h5 {
     font-weight: 900;
@@ -152,11 +148,6 @@ h2 h3 {
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
-  }
-  .programs-section .card .btn{
-    position: absolute;
-    left: 60px;
-    bottom: 10px;
   }
 
   /* SUPPORT SERVICES SECTION */
@@ -423,9 +414,9 @@ border-radius: 15px;
 
 .circle-card-content-hover a{
   font-size: 20px;
-  position: absolute;
+  /* position: absolute;
   bottom: 20px;
-  left: 20px;
+  left: 20px; */
   color: var(--primary-brand-color)
 }
 

@@ -39,7 +39,7 @@ function TrainingPage() {
           </div>
           <div className='col col-12 col-md-6 col-lg-4 mb-3'>
             <Card
-              img={ImageURLs.networking500ImageBoxURL}
+              img={ImageURLs.peer500ImageBoxURL}
               title="Internship Opportunities for Students:"
               body="As part of our commitment to your success, we offer exclusive internship opportunities for our students. Gain hands-on experience in your field of study, apply the skills you've learned in real-world scenarios, and build a valuable professional network."
             />
