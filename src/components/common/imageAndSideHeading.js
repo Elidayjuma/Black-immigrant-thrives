@@ -9,7 +9,7 @@ export default function ImageAndSideHeading(props) {
     </div>
       <div className='col-md-6' style={{margin: 'auto'}}>
       {/* <p className=' h1 text-center' > {props.title} </p> */}
-      <p className=' text-center' > {props.body} </p>
+      <p className=' text-left' > {props.body} </p>
       </div>
     </div>
   );
